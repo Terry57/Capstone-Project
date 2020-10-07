@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react"
 import { graphql } from "gatsby"
-import { firestore } from  "../../firebase.js"
 import Helmet from "react-helmet"
 import AddToCart from "../components/add-to-cart.js"
 import Layout from "../components/layout"
@@ -18,7 +17,7 @@ export default function Product({data}) {
       <Layout>
             <h2 className="animate__animated animate__bounce">{product.name} - ${product.price.toFixed(2)}</h2>
             
-            <AddToCart item={ {sku: product.sku, price: product.price, name: product.name} }></AddToCart>
+            <AddToCart class="btn btn-primary" item={ {sku: product.sku, price: product.price, name: product.name} }></AddToCart>
 
             <img src={product.image.file.url} alt={product.name} className="img-thumbnail" />
             <p>

@@ -9,8 +9,9 @@ export default function About() {
             
 
             <div>About me</div>
-
+            <div class="terry">
             <img src="terry.jpg" alt="Terry Sanchez" className="img-thumbnail" />
+            </div>
 
         
 
@@ -18,3 +19,4 @@ export default function About() {
       </Layout>
   )
 }
+

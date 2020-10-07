@@ -7,9 +7,9 @@ import { Link } from "@reach/router"
 export default function Layout({children}) {
     return (
         <CartContextProvider>
-        <div style={{ maxWidth: '800px', margin: '0 auto'}}>
+        <div class="container">
             <Header>
-
+<p>header hi</p>
             </Header>
             <br/>
             {children}
