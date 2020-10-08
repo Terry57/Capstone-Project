@@ -9,12 +9,11 @@ export default function Layout({children}) {
         <CartContextProvider>
         <div class="container">
             <Header>
-<p>header hi</p>
             </Header>
             <br/>
             {children}
             <br/>
-            <h3><Link to="about">About</Link>    *  <Link to="/">Home</Link></h3>
+            <h3><Link to="about" class="myButton2">About</Link> <i className="fa fa-star-o" aria-hidden="true"></i> <Link to="/" class="myButton2">Home</Link></h3>
         </div>
         </CartContextProvider>
     )

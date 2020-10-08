@@ -15,17 +15,19 @@ export default function Product({data}) {
         <meta name="description" value="American Prestige"/>
       </Helmet>
       <Layout>
-            <h2 className="animate__animated animate__bounce">{product.name} - ${product.price.toFixed(2)}</h2>
-            
-            <AddToCart class="btn btn-primary" item={ {sku: product.sku, price: product.price, name: product.name} }></AddToCart>
+      <div class="container">
+            <h2 className="animate__animated animate__bounce">{product.name} - ${product.price.toFixed(2)}</h2>           
+
 
             <img src={product.image.file.url} alt={product.name} className="img-thumbnail" />
+
+            <br/>
             <p>
                 {product.description.description}
-            </p>
-
-
-
+            </p>           
+            <AddToCart class="myButton" item={ {sku: product.sku, price: product.price, name: product.name} }></AddToCart>        
+           
+            </div>
         </Layout>
       </>
     )

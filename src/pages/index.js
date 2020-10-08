@@ -9,27 +9,29 @@ export default function Home({data}) {
     <>
     <Layout>
       
-    <Helmet>  
+    <Helmet> 
       <title>Terry's Capstone Project</title>
       <meta name="description" content="Building a Capstone website" />
-    </Helmet>    
+    </Helmet>   
+
     <h1>Vintage Political Buttons</h1>    
-    <img class="img" src="buttons.jpg"/>  
-    <br/>      
-    {/* <div class="album py-5 bg-light"> */}
+    <img class="img-fluid" src="buttons.jpg"/>  
+    <br/>    
+
     <div class="container">
       <div class="row">
       {data.allContentfulProduct.nodes.map((node, index) => (
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-          <img class="card-img-top" src={ node.image.file.url } alt= { node.product }/> 
+          <img class="card-img-top" src={ node.image.file.url } alt= { node.name }/> 
             <div class="card-body">
               <p class="card-text">{node.name}!</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href={node.product} class="btn btn-primary">View</a>
+                <a href={node.name} class="myButton">View</a>                
                 </div>
-                <i className="fa fa-star-o" aria-hidden="true"></i>
+                <i className="fa fa-star" aria-hidden="true"></i>
+                <br/>
               </div>
             </div>
           </div>
@@ -38,7 +40,7 @@ export default function Home({data}) {
 ))} 
    </div>
   </div>
-  {/* </div>   */}
+  
   
 
     </Layout>

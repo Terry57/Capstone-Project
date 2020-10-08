@@ -30,19 +30,20 @@ export default function Header() {
             `}
             render={data => (
             <header>
-                <h1>{data.site.siteMetadata.title} <i className="fa fa-thumbs-up" aria-hidden="true"></i></h1>
+                <h1>{data.site.siteMetadata.title} <i className="fa fa-star-o" aria-hidden="true"></i></h1>
             </header>
             )}
         />
         <div class="header">
             <ul className="list-group list-group-horizontal">
-              <li className="list-group-item"><Link to="/">Home</Link></li>
-              <li className="list-group-item"><Link to="about">About</Link></li>
-              <li className="list-group-item"><Link to="checkout">Check Out</Link></li>
-              <li className="list-group-item">
+              <li className="list-group-item myButton2"><Link to="/">Home</Link></li>
+              <li className="list-group-item myButton2"><Link to="about">About</Link></li>
+              <li className="list-group-item myButton2"><Link to="checkout">Check Out</Link></li>
+              <li className="list-group-item star7">
+
 
                     {itemCount === 0 &&
-                        <strong>How about you buy something?</strong>
+                        <strong>You to could own a piece of history.</strong>
                     }
 
                     {itemCount > 0 &&
@@ -50,8 +51,16 @@ export default function Header() {
                     }
 
               </li>
- 
+              <i className="fa fa-star star7" aria-hidden="true"></i>
+              <i className="fa fa-star star7" aria-hidden="true"></i>
+              <i className="fa fa-star star7" aria-hidden="true"></i>
+              <i className="fa fa-star star7" aria-hidden="true"></i>
+              <i className="fa fa-star star7" aria-hidden="true"></i>
+              <i className="fa fa-star star7" aria-hidden="true"></i>
+                
+           
           </ul>
+          
         </div>
         </>
     )

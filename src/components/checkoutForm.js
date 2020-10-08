@@ -5,6 +5,7 @@ export default function CheckoutForm() {
 
     const [ email, setEmail ] = useState("");
     const [ fullname, setFullname ] = useState("");
+    const [ address, setAddress ] = useState("");
 
     function saveOrder() {
         alert("This is sample cart, your order was not really completed.")
@@ -26,14 +27,19 @@ export default function CheckoutForm() {
             </div>
             <div class="form-group">
                 <label for="exampleFormControlInput1">Your Name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Hungry Harry" value={fullname} onChange={(e) => { setFullname(e.target.value) } } />
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" value={fullname} onChange={(e) => { setFullname(e.target.value) } } />
+            </div>
+            <div class="form-group">
+                <label for="exampleFormControlInput1">Shipping Address</label>
+                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Address" value={fullname} onChange={(e) => { setAddress(e.target.value) } } />
             </div>
 
             <p>
-            ...more form fields here...
+            Thank your for shopping with us!
             </p>
 
-            <button className="btn btn-lg btn-primary" onClick={() => saveOrder()}>Place Order</button>
+            <button type="button" class="myButton2" onClick={() => saveOrder()}><span class="blinking">Check Out</span></button>
+            <br/>
         </>
     )
 }
