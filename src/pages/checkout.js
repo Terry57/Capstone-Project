@@ -11,6 +11,8 @@ export default function Checkout() {
           <Helmet>
               <title>Check Out</title>
           </Helmet>
+          <img class="img-fluid" src="flag.jpg"/> 
+          <hr/>
           <h2>Check Out</h2>
           <Cart></Cart>
           <hr/>

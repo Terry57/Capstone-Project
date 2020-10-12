@@ -51,12 +51,12 @@ export default function Header() {
                     }
 
               </li>
-              <i className="fa fa-star star7" aria-hidden="true"></i>
-              <i className="fa fa-star star7" aria-hidden="true"></i>
-              <i className="fa fa-star star7" aria-hidden="true"></i>
-              <i className="fa fa-star star7" aria-hidden="true"></i>
-              <i className="fa fa-star star7" aria-hidden="true"></i>
-              <i className="fa fa-star star7" aria-hidden="true"></i>
+              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
+              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
+              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
+              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
+              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
+              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
                 
            
           </ul>
