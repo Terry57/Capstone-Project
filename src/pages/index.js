@@ -14,7 +14,7 @@ export default function Home({data}) {
       <meta name="description" content="Building a Capstone website" />
     </Helmet>   
 
-    <h1>Vintage Political Buttons</h1>    
+    <h1><i className="fa fa-star-o" aria-hidden="true"></i> Vintage Political Buttons <i className="fa fa-star-o" aria-hidden="true"></i></h1>    
     <img class="img-fluid" src="buttons.jpg"/>  
     <br/>    
 

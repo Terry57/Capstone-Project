@@ -3,10 +3,10 @@ const path = require("path")
 exports.createPages = ({ actions, graphql }) => {
     const { createPage } = actions
   
-    const product = path.resolve(`src/pages/product.js`)
+    const product = path.resolve(`src/templates/product.js`)
   
     return graphql(`
-    query MyQuery {
+    {
       allContentfulProduct {
         nodes {
           name
@@ -30,7 +30,7 @@ exports.createPages = ({ actions, graphql }) => {
         return Promise.reject(result.errors)
       }
   
-      result.data.allContentfulProduct.nodes.forEach((node) => {
+      result.data.allContentfulProduct.nodes.forEach((node) => {       
         createPage({
             path: node.name,
             component: product,

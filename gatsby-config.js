@@ -24,6 +24,7 @@ module.exports = {
         spaceId: `ax0qpos29tny`,
         accessToken: `yDAZEs23NSikt2Nl7zd8q2uciN8HDcvjg-DmxbuQxiI`,
       },
+      // src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GATSBY_GOOGLE_MAPS_KEY}&q=Space+Needle,Seattle+WA`} allowFullScreen>
       },
     {
       resolve: `gatsby-plugin-google-fonts`,

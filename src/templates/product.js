@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React from "react"
 import { graphql } from "gatsby"
 import Helmet from "react-helmet"
 import AddToCart from "../components/add-to-cart.js"
@@ -25,7 +25,7 @@ export default function Product({data}) {
             <p>
                 {product.description.description}
             </p>           
-            <AddToCart class="myButton" item={ {sku: product.sku, price: product.price, name: product.name} }></AddToCart>        
+            <AddToCart item={ {sku: product.sku, price: product.price, name: product.name} }></AddToCart>        
            
             </div>
         </Layout>
@@ -36,7 +36,6 @@ export default function Product({data}) {
 export const query = graphql`
 query productQuery($slug: String!) {
     contentfulProduct(name: {eq: $slug}) {
-
           name,
           price
           sku

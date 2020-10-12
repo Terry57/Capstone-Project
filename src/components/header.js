@@ -30,7 +30,7 @@ export default function Header() {
             `}
             render={data => (
             <header>
-                <h1>{data.site.siteMetadata.title} <i className="fa fa-star-o" aria-hidden="true"></i></h1>
+                <h1><i className="fa fa-star-o" aria-hidden="true"></i> {data.site.siteMetadata.title} <i className="fa fa-star-o" aria-hidden="true"></i></h1>
             </header>
             )}
         />
