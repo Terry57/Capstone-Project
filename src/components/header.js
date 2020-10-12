@@ -1,4 +1,4 @@
-import React, { useContext, useEffect, useState } from "react"
+import React, { useContext } from "react"
 import { Link } from "@reach/router"
 import { CartContext } from "../../shopping.js"
 import { StaticQuery, graphql } from "gatsby"
@@ -50,14 +50,14 @@ export default function Header() {
                         <strong>You have {itemCount} item(s) in your cart!</strong>
                     }
 
-              </li>
-              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
-              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
-              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
-              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
-              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
-              <i class="star7" className="fa fa-star star7" aria-hidden="true"></i>
-                
+              </li>              
+              <i  className="fa fa-star star7" aria-hidden="true"></i>
+              <i  className="fa fa-star star7" aria-hidden="true"></i>
+              <i  className="fa fa-star star7" aria-hidden="true"></i>
+              <i  className="fa fa-star star7" aria-hidden="true"></i>
+              <i  className="fa fa-star star7" aria-hidden="true"></i>   
+              <i  className="fa fa-star star7" aria-hidden="true"></i>            
+             
            
           </ul>
           

@@ -15,7 +15,7 @@ export default function Home({data}) {
     </Helmet>   
 
     <h1><i className="fa fa-star-o" aria-hidden="true"></i> Vintage Political Buttons <i className="fa fa-star-o" aria-hidden="true"></i></h1>    
-    <img class="img-fluid" src="buttons.jpg"/>  
+    <img class="img-fluid hero-banner" src="buttons.jpg" alt="buttons"/>  
     <br/>    
 
     <div class="container">

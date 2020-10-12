@@ -18,9 +18,6 @@ h1 {
     padding-top: .4em;
     border-top: double;    
 }
-.img {
-    max-width: 1100px;    
-}
 .terry {
     max-width: 400px;
 }
@@ -158,11 +155,17 @@ p {
     font-size: 19px;
 }
 @media screen and (min-width: 0px) and (max-width: 720px) {
-    .star7 { display: none; }
-    .star7{ display: none; }
+    .star7 { display: none !important; } 
+    .star7{ display: none !important; }
   }
   .img-fluid {
       border-radius: 10px;
+  }
+  .hero-banner{
+      margin-bottom: 20px;
+      box-shadow: yellowgreen;
+      box-shadow:inset 5px 5px 5px 0px #132236;
+      max-width: 1100px; 
   }
 
       

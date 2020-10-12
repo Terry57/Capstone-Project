@@ -22,16 +22,16 @@ export default function CheckoutForm() {
             <h2>Your Details</h2>
 
             <div class="form-group">
-                <label for="exampleFormControlInput1">Email address</label>
+                <label htmlFor="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value={email} onChange={(e) => { setEmail(e.target.value) } }/>
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Your Name</label>
+                <label htmlFor="exampleFormControlInput1">Your Name</label>
                 <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Your Name" value={fullname} onChange={(e) => { setFullname(e.target.value) } } />
             </div>
             <div class="form-group">
-                <label for="exampleFormControlInput1">Shipping Address</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Address" value={fullname} onChange={(e) => { setAddress(e.target.value) } } />
+                <label htmlFor="address">Shipping Address</label>
+                <input type="text" name="address" class="form-control" id="exampleFormControlInput1" placeholder="Address" value={address} onChange={(e) => { setAddress(e.target.value) } } />
             </div>
 
             <p>
