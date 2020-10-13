@@ -11,11 +11,10 @@ export default function Checkout() {
           <Helmet>
               <title>Check Out</title>
           </Helmet>
-          <img class="img-fluid" src="flag.jpg" alt="flag"/> 
-          <hr/>
+          <img class="img-fluid" src="flag.jpg" alt="flag"/>         
           <h2>Check Out</h2>
           <Cart></Cart>
-          <hr/>
+          <br/>
           <CheckoutForm></CheckoutForm>
       </Layout>
   )

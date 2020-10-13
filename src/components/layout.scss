@@ -32,6 +32,8 @@ h3 {
     div {
         border-width:5px;  
         border-style:ridge;
+        box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
+
     }
     padding: 2em;
     // background-image: url('/paper.jpg');
@@ -113,7 +115,8 @@ button, .btn-primary {
 	top:1px;
 }
 .myButton2 {
-	box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    box-shadow: rgba(51, 48, 42, 0.877) 2px 3px 10px;
 	background:linear-gradient(to bottom, #3655e2 5%, $color-primary 100%);
 	background-color: $color-primary;
 	border-radius:6px;
@@ -160,12 +163,23 @@ p {
   }
   .img-fluid {
       border-radius: 10px;
+      box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
+      margin-bottom: 20px;
   }
   .hero-banner{
       margin-bottom: 20px;
-      box-shadow: yellowgreen;
-      box-shadow:inset 5px 5px 5px 0px #132236;
-      max-width: 1100px; 
+      box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
+      max-width: 1070px; 
+  }
+  .shadow-sm {
+    box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px !important; 
+  }
+  .img-thumbnail{
+    box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
+    margin-bottom: 20px;
+  }
+  .card-body{
+      box-shadow: none !important;
   }
 
       

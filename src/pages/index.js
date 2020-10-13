@@ -26,7 +26,7 @@ export default function Home({data}) {
           <img class="card-img-top" src={ node.image.file.url } alt= { node.name }/> 
             <div class="card-body">
               <p class="card-text">{node.name}!</p>
-              <div class="d-flex justify-content-between align-items-center">
+              <div class="d-flex justify-content-between align-items-center card-body">
                 <div class="btn-group">
                 <a href={node.name} class="myButton">View</a>                
                 </div>
