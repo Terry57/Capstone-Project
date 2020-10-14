@@ -10,13 +10,6 @@ export default function CheckoutForm() {
     function saveOrder() {
         alert("This is sample cart, your order was not really completed.")
 
-        // let customer = {
-        //     fullname: fullname,
-        //     email: email,
-        // }
-        // axios.post("https://webhook.site/1022c860-ad18-46d0-9699-c8a6ad5ba435", customer);
-    }
-
     return (
         <>
             <h2>Your Details</h2>
