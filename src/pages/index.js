@@ -13,11 +13,15 @@ export default function Home({data}) {
       <title>Terry's Capstone Project</title>
       <meta name="description" content="Building a Capstone website" />
     </Helmet>   
-
+    <div className="header">
     <h1><i className="fa fa-star-o" aria-hidden="true"></i> Vintage Political Buttons <i className="fa fa-star-o" aria-hidden="true"></i></h1> 
+    </div>
+    <br/>
     <div>
+      <div>
     <img className="img-fluid" src="buttons.jpg" alt="buttons"/> 
     </div>    
+    </div>
     <br/>    
 
     <div className="container">

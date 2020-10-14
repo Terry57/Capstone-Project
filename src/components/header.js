@@ -29,12 +29,14 @@ export default function Header() {
             }
             `}
             render={data => (
-            <header>
-                <h1><i className="fa fa-star-o" aria-hidden="true"></i> {data.site.siteMetadata.title} <i className="fa fa-star-o" aria-hidden="true"></i></h1>
+            <header>   
+                <div className="header">       
+                <h1><i className="fa fa-star-o" aria-hidden="true"></i> {data.site.siteMetadata.title} <i className="fa fa-star-o" aria-hidden="true"></i></h1>   
+                </div>                              
             </header>
             )}
         />
-        <div class="header">
+        <div className="header">     
             <ul className="list-group list-group-horizontal">
               <li className="list-group-item myButton2"><Link to="/">Home</Link></li>
               <li className="list-group-item myButton2"><Link to="about">About</Link></li>
@@ -59,7 +61,7 @@ export default function Header() {
               <i  className="fa fa-star star7" aria-hidden="true"></i>            
              
            
-          </ul>
+          </ul>        
           
         </div>
         </>

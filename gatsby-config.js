@@ -30,7 +30,7 @@ module.exports = {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [
-          `Bangers`,
+          'Cinzel Decorative', 
           `Special Elite` // you can also specify font weights and styles
         ],
         display: 'swap'
