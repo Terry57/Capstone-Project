@@ -6,10 +6,11 @@ export default function CheckoutForm() {
     const [ email, setEmail ] = useState("");
     const [ fullname, setFullname ] = useState("");
     const [ address, setAddress ] = useState("");
+    
 
     function saveOrder() {
         alert("This is sample cart, your order was not really completed.")
-
+    }
     return (
         <>
             <h2>Your Details</h2>
