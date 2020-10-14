@@ -3,6 +3,9 @@
  *
  * See: https://www.gatsbyjs.com/docs/gatsby-config/
  */
+require("dotenv").config({
+  path: `.env.${process.env.NODE_ENV}`,
+})
 
 module.exports = {
   /* Your site config here */
@@ -21,10 +24,10 @@ module.exports = {
     {
       resolve: `gatsby-source-contentful`,
       options: {
-        spaceId: `ax0qpos29tny`,
-        accessToken: `yDAZEs23NSikt2Nl7zd8q2uciN8HDcvjg-DmxbuQxiI`,
+        spaceId: process.env.GATSBY_CONTENTFUL_SPACE_ID,
+        accessToken: process.env.GATSBY_CONTENTFUL_API_ID,
       },
-      // src={`https://www.google.com/maps/embed/v1/place?key=${process.env.GATSBY_GOOGLE_MAPS_KEY}&q=Space+Needle,Seattle+WA`} allowFullScreen>
+      
       },
     {
       resolve: `gatsby-plugin-google-fonts`,
