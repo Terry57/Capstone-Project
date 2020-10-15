@@ -4,6 +4,8 @@ $color-three: #cc0000;
 
 
 body {
+    background-image: url("/star.gif");
+    background-repeat: repeat;
     background-color: $color-primary;
     font-family: 'Special Elite', cursive;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
