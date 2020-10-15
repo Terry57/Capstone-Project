@@ -12,7 +12,7 @@ export default function Layout({children}) {
             </Header>
             <br/>
             {children}
-            <br/>
+            <br/>            
             <h3><Link to="about" class="myButton2">About</Link> <i className="fa fa-star-o" aria-hidden="true"></i> <Link to="/" class="myButton2">Home</Link></h3>
         </div>
         </CartContextProvider>
