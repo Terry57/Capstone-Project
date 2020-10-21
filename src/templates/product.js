@@ -15,7 +15,7 @@ export default function Product({data}) {
         <meta name="description" value="American Prestige"/>
       </Helmet>
       <Layout>
-      <div className="container">
+      <div className="border">
         <div className="header">
             <h1>{product.name} - ${product.price.toFixed(2)}</h1> 
             </div> 

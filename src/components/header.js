@@ -36,12 +36,12 @@ export default function Header() {
             </header>
             )}
         />
-        <div className="header">     
-            <ul className="list-group list-group-horizontal">
+        <nav className="header">     
+            {/* <ul className="list-group list-group-horizontal"> */}
               <li className="list-group-item myButton2"><Link to="/">Home</Link></li>
               <li className="list-group-item myButton2"><Link to="about">About</Link></li>
               <li className="list-group-item myButton2"><Link to="checkout">Check Out</Link></li>
-              <li className="list-group-item star7">
+              <li>
 
 
                     {itemCount === 0 &&
@@ -53,17 +53,17 @@ export default function Header() {
                     }
 
               </li>              
-              <i  className="fa fa-star star7" aria-hidden="true"></i>
+              {/* <i  className="fa fa-star star7" aria-hidden="true"></i>
               <i  className="fa fa-star star7" aria-hidden="true"></i>
               <i  className="fa fa-star star7" aria-hidden="true"></i>
               <i  className="fa fa-star star7" aria-hidden="true"></i>
               <i  className="fa fa-star star7" aria-hidden="true"></i>   
-              <i  className="fa fa-star star7" aria-hidden="true"></i>            
+              <i  className="fa fa-star star7" aria-hidden="true"></i>             */}
              
            
-          </ul>        
+          {/* </ul>         */}
           
-        </div>
+        </nav>
         </>
     )
 }

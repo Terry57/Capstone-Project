@@ -14,7 +14,7 @@ export default function CheckoutForm() {
     return (
         <>
             <h2>Your Details</h2>
-
+            <div class="checkout">
             <div class="form-group">
                 <label htmlFor="exampleFormControlInput1">Email address</label>
                 <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" value={email} onChange={(e) => { setEmail(e.target.value) } }/>
@@ -27,7 +27,8 @@ export default function CheckoutForm() {
                 <label htmlFor="address">Shipping Address</label>
                 <input type="text" name="address" class="form-control" id="exampleFormControlInput1" placeholder="Address" value={address} onChange={(e) => { setAddress(e.target.value) } } />
             </div>
-
+            </div>
+            <img className="img-fluid" src="flag.jpg" alt="flag"/>  
             <p>
             Thank your for shopping with us!
             </p>

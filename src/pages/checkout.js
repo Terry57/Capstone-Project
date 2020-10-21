@@ -10,8 +10,7 @@ export default function Checkout() {
       <Layout>
           <Helmet>
               <title>Check Out</title>
-          </Helmet>
-          <img className="img-fluid" src="flag.jpg" alt="flag"/>         
+          </Helmet>          
           <h2>Check Out</h2>
           <Cart></Cart>
           <br/>

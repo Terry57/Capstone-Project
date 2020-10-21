@@ -10,7 +10,7 @@ require("dotenv").config({
 module.exports = {
   /* Your site config here */
   siteMetadata: {
-    title: `My Capstone Project`,
+    title: `Vintage Political Buttons`,
     description: `Political buttons`,
   },
   plugins: [
