@@ -31,39 +31,33 @@ export default function Header() {
             render={data => (
             <header>   
                 <div className="header">       
-                <h1><i className="fa fa-star-o" aria-hidden="true"></i> {data.site.siteMetadata.title} <i className="fa fa-star-o" aria-hidden="true"></i></h1>   
+                <h1><i className="fa fa-star-o" aria-hidden="true"></i> {data.site.siteMetadata.title} <i className="fa fa-star-o" aria-hidden="true"></i></h1>             
+            
+                <ul class="nav justify-content-center myButton2">
+                <li class="nav-item">
+                    <a class="nav-link active"><Link to="/">Home     </Link></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><Link to="about">About              </Link></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link"><Link to="checkout">Check Out</Link></a>
+                </li> 
+                </ul>
+                <div className="list7">  
+                    <i  className="fa fa-star" aria-hidden="true"></i>               {itemCount === 0 &&
+                        <strong>You to could own a piece of history.</strong>
+                    }
+                    {itemCount > 0 &&
+                        <strong>You have {itemCount} item(s) in your cart!</strong>
+                    }
+                    <i  className="fa fa-star" aria-hidden="true"></i>
+                    </div>     
                 </div>                              
             </header>
             )}
         />
-        <nav>     
-            {/* <ul className="list-group list-group-horizontal"> */}
-              <li className="list-group-item myButton2"><Link to="/">Home</Link></li>
-              <li className="list-group-item myButton2"><Link to="about">About</Link></li>
-              <li className="list-group-item myButton2"><Link to="checkout">Check Out</Link></li>
-              <li>
-
-
-                    {itemCount === 0 &&
-                        <strong>You to could own a piece of history.</strong>
-                    }
-
-                    {itemCount > 0 &&
-                        <strong>You have {itemCount} item(s) in your cart!</strong>
-                    }
-
-              </li>              
-              {/* <i  className="fa fa-star star7" aria-hidden="true"></i>
-              <i  className="fa fa-star star7" aria-hidden="true"></i>
-              <i  className="fa fa-star star7" aria-hidden="true"></i>
-              <i  className="fa fa-star star7" aria-hidden="true"></i>
-              <i  className="fa fa-star star7" aria-hidden="true"></i>   
-              <i  className="fa fa-star star7" aria-hidden="true"></i>             */}
-             
-           
-          {/* </ul>         */}
-          
-        </nav>
+     
         </>
     )
 }
