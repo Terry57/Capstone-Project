@@ -36,7 +36,7 @@ export default function Header() {
             </header>
             )}
         />
-        <nav className="header">     
+        <nav>     
             {/* <ul className="list-group list-group-horizontal"> */}
               <li className="list-group-item myButton2"><Link to="/">Home</Link></li>
               <li className="list-group-item myButton2"><Link to="about">About</Link></li>

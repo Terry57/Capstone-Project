@@ -7,6 +7,7 @@ export default function Cart() {
     return (
         <>
             <h3>Your Cart</h3>
+            <div className="checkout">
             <div className="row">
                 <div className="col-sm-8">
                     <table className="table">
@@ -46,6 +47,7 @@ export default function Cart() {
                     <br />
                     Grand Total: <strong>${grandTotal.toFixed(2)}</strong>
                 </div>
+            </div>
             </div>
         </>
 

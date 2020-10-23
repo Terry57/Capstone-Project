@@ -28,7 +28,7 @@ export default function CheckoutForm() {
                 <input type="text" name="address" class="form-control" id="exampleFormControlInput1" placeholder="Address" value={address} onChange={(e) => { setAddress(e.target.value) } } />
             </div>
             </div>
-            <img className="img-fluid" src="flag.jpg" alt="flag"/>  
+            <img className="img-fluid border" src="/flag.jpg" alt="flag"/>  
             <p>
             Thank your for shopping with us!
             </p>
