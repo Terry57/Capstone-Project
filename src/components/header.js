@@ -33,7 +33,7 @@ export default function Header() {
                 <div className="header">       
                 <h1><i className="fa fa-star-o" aria-hidden="true"></i> {data.site.siteMetadata.title} <i className="fa fa-star-o" aria-hidden="true"></i></h1>             
             
-                <ul class="nav justify-content-center myButton2">
+                <ul class="nav justify-content-center myButton3">
                 <li class="nav-item">
                     <a class="nav-link active"><Link to="/">Home     </Link></a>
                 </li>

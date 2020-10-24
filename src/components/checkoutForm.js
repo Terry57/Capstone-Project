@@ -27,7 +27,7 @@ export default function CheckoutForm() {
                 <label htmlFor="address">Shipping Address</label>
                 <input type="text" name="address" class="form-control" id="exampleFormControlInput1" placeholder="Address" value={address} onChange={(e) => { setAddress(e.target.value) } } />
             </div>
-            <button type="button" class="myButton2" onClick={() => saveOrder()}><span class="blinking">Check Out</span></button>
+            <button type="button" class="myButton" onClick={() => saveOrder()}><span class="blinking">Check Out</span></button>
             </div>
             <img className="img-fluid border" src="/flag.jpg" alt="flag"/>  
             <p>

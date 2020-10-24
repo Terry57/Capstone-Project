@@ -1,12 +1,13 @@
-$color-primary:#191b6d;
+
+$color-primary:#042ea0;
 $color-secondary: rgb(248, 248, 248);
-$color-three: #cc0000;
+$color-three: #bb2d2d;
 
 
-body {
-    background-image: url("/flag.gif");
+.bg {
+    background-image: url("/flag2.jpg");
     background-repeat: repeat; 
-    background-color: $color-primary;
+    background-color: $color-three;
     font-family: 'Special Elite', cursive;
     box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
     border-radius: 0.25rem;    
@@ -15,14 +16,13 @@ body {
 h1 {
     font-family: 'Cinzel Decorative', cursive;
     color: $color-secondary;
-    background-color: $color-primary;
+    background:linear-gradient(to top, #d83e3e 5%,$color-three 100%);
     text-align: center; 
     padding-top: .4em;
     border-top: double;    
     text-shadow: #455983 3px 3px 5px;
     box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
-    border-radius: 20px;
-    // margin: 30px;
+    border-radius: 20px;  
 }
 h3 {
     text-align: center;
@@ -32,13 +32,12 @@ h3 {
 .container {
     text-align: center;
     color: white;
-    background-color: $color-three;
-    padding: 3em;   
-    box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
-    border-radius: 20px;
-
+    box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    box-shadow: rgba(51, 48, 42, 0.877) 2px 3px 10px;
+	background:linear-gradient(to bottom, #2749e0 5%,#1572eb 100%);	
+	border-radius:20px;
+    padding: 3em;     
 }
-
 .list-group-horizontal {
     flex-direction: row;
 }
@@ -66,7 +65,7 @@ a {
     border-color: #dc3545;
 }
 .col-sm-8, .col-sm-4, .form-group {
-background-color: $color-primary;
+	background:linear-gradient(to top, #d83e3e 5%,$color-three 100%);
 }
 button, .btn-primary {
     background-color: $color-primary;
@@ -83,14 +82,14 @@ button, .btn-primary {
 @keyframes blinkingText{
     0%{     color: rgb(252, 248, 248);    }
     49%{    color: rgb(247, 207, 207); }
-    60%{    color: rgb(240, 114, 114);  }
-    99%{    color: rgb(238, 63, 63);   }
+    60%{    color: rgb(50, 99, 233);  }
+    99%{    color: rgb(11, 47, 165);   }
     100%{   color: rgb(252, 246, 246);    }
 }
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #f29c93;
-	background:linear-gradient(to bottom, #fe1a00 5%, #ce0100 100%);
-	background-color:#fe1a00;
+	background:linear-gradient(to top, #d83e3e 5%,$color-three 100%);
+	background-color:$color-three;
 	border-radius:6px;
 	border:1px solid #d83526;
 	display:inline-block;
@@ -117,12 +116,11 @@ button, .btn-primary {
 	background:linear-gradient(to bottom, #3655e2 5%, $color-primary 100%);
 	background-color: $color-primary;
 	border-radius:20px;
-	border:1px solid #337fed;
-    font-family: 'Cinzel Decorative', cursive !important;
+	border:1px solid #337fed;  
 	cursor:pointer;
 	color:#ffffff;
 	font-family:Arial;
-	font-size:20px;
+	font-size:15px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
@@ -136,21 +134,6 @@ button, .btn-primary {
 .myButton2:active {
 	position:relative;
 	top:1px;
-}
-.star7 {
-    box-shadow:inset 0px 1px 0px 0px #97c4fe;
-	background:linear-gradient(to bottom, #3655e2 5%, $color-primary 100%);
-	background-color: $color-primary;
-	border-radius:6px;
-	border:1px solid #337fed;
-	display:inline-block;	
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	font-weight:bold;
-	padding:6px 24px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #1570cd; 
 }
 p {
     font-size: 19px;
@@ -208,6 +191,31 @@ p {
     font-family: 'Cinzel Decorative', cursive;
     margin-bottom: -20px;
     font-size:25px;
+}
+.myButton3 {
+    box-shadow:inset 0px 1px 0px 0px #97c4fe;
+    box-shadow: rgba(51, 48, 42, 0.877) 2px 3px 10px;
+	background:linear-gradient(to bottom, #2749e0 5%,#1572eb 100%);	
+	border-radius:20px;
+	border:1px solid #337fed;
+    font-family: 'Cinzel Decorative', cursive !important;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:23px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #1570cd;
+    margin-bottom: 10px;
+}
+.myButton3:hover {
+	background:linear-gradient(to bottom, #1e62d0 5%, #3d94f6 100%);
+	background-color:#1e62d0;
+}
+.myButton3:active {
+	position:relative;
+	top:1px;
 }
       
 

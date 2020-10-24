@@ -17,7 +17,8 @@ export default function Product({data}) {
       <Layout>
       <div className="border">
         <div className="header">
-            <h1>{product.name} - ${product.price.toFixed(2)}</h1> 
+          <br/>
+            <h3>{product.name} - ${product.price.toFixed(2)}</h3> 
             </div> 
                  
             <img src={product.image.file.url} alt={product.name} className="img-thumbnail" />
@@ -26,9 +27,11 @@ export default function Product({data}) {
             <p>
                 {product.description.description}
             </p>           
-            <AddToCart item={ {sku: product.sku, price: product.price, name: product.name} }></AddToCart>        
+                  
            
             </div>
+            <br/>
+            <AddToCart item={ {sku: product.sku, price: product.price, name: product.name} }></AddToCart> 
         </Layout>
       </>
     )
