@@ -29,7 +29,7 @@ export default function CheckoutForm() {
             </div>
             <button type="button" class="myButton" onClick={() => saveOrder()}><span class="blinking">Check Out</span></button>
             </div>
-            <img className="img-fluid border" src="/flag.jpg" alt="flag"/>  
+            <img className="img-fluid border" src="/walkingb.gif" alt="flag"/>  
             <p>
             Thank your for shopping with us!
             </p>

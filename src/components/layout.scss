@@ -2,6 +2,7 @@
 $color-primary:#042ea0;
 $color-secondary: rgb(248, 248, 248);
 $color-three: #bb2d2d;
+$color-four: #d83e3e;
 
 
 .bg {
@@ -16,7 +17,7 @@ $color-three: #bb2d2d;
 h1 {
     font-family: 'Cinzel Decorative', cursive;
     color: $color-secondary;
-    background:linear-gradient(to top, #d83e3e 5%,$color-three 100%);
+    background:linear-gradient(to top, $color-four 5%, $color-three 100%);
     text-align: center; 
     padding-top: .4em;
     border-top: double;    
@@ -65,7 +66,7 @@ a {
     border-color: #dc3545;
 }
 .col-sm-8, .col-sm-4, .form-group {
-	background:linear-gradient(to top, #d83e3e 5%,$color-three 100%);
+    background:linear-gradient(to top, $color-four 5%, $color-three 100%);
 }
 button, .btn-primary {
     background-color: $color-primary;
@@ -88,7 +89,7 @@ button, .btn-primary {
 }
 .myButton {
 	box-shadow:inset 0px 1px 0px 0px #f29c93;
-	background:linear-gradient(to top, #d83e3e 5%,$color-three 100%);
+    background:linear-gradient(to top, $color-four 5%, $color-three 100%);
 	background-color:$color-three;
 	border-radius:6px;
 	border:1px solid #d83526;
