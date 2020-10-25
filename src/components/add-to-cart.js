@@ -6,6 +6,7 @@ export default function AddToCart({item}) {
     return (
         <>
             <button class="myButton blinking" onClick={ () => addProduct(item) }>Add to Cart</button>
+            <br/>
         </>
     )
 }

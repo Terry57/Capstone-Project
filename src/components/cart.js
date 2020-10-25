@@ -7,8 +7,8 @@ export default function Cart() {
     return (
         <>
             <h3>Your Cart</h3>
-            <div className="checkout">
-            <div className="row">
+            <div className="checkout1">
+            <div className="rowC">
                 <div className="col-sm-8">
                     <table className="table">
                         <thead>

@@ -10,11 +10,14 @@ export default function Checkout() {
       <Layout>
           <Helmet>
               <title>Check Out</title>
-          </Helmet>          
+          </Helmet>
+          <div className="border"> 
+          <br/>        
           <h2>Check Out</h2>
           <Cart></Cart>
           <br/>
           <CheckoutForm></CheckoutForm>
+          </div> 
       </Layout>
   )
 }
