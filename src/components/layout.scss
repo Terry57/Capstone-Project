@@ -24,7 +24,7 @@ h1 {
     border-top: double;    
     text-shadow: #455983 3px 3px 5px;
     box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
-    border-radius: 20px;  
+    border-radius: 10px;  
 }
 h3 {
     text-align: center;
@@ -38,7 +38,7 @@ h3 {
     box-shadow: rgba(51, 48, 42, 0.877) 2px 3px 10px;
     // background:linear-gradient(to bottom, #1a3edd 5%,#0768e7 100%);    
     background:linear-gradient(to bottom, $color-three 5%, $color-three 25%, #faf8f8d2 50%,#224cc0 75%, #1a42af 85%, $color-primary 100%);
-	border-radius:20px;
+	border-radius:10px;
     padding: 3em;     
 }
 .list-group-horizontal {
@@ -74,7 +74,7 @@ a {
     background:linear-gradient(to top, $color-four 5%, $color-three 100%);
     // background:linear-gradient(to bottom, #3453dd 5%,#267beb 100%);	
     box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
-    border-radius: 20px; 
+    border-radius: 10px; 
     margin-left: auto;
     margin-right: auto;
     font-size: 1.2em;
@@ -247,7 +247,7 @@ p {
     box-shadow: rgba(51, 48, 42, 0.877) 2px 3px 10px;
     // background:linear-gradient(to bottom, #2749e0 5%,#1572eb 100%);	
     background:linear-gradient(to bottom, #304fdb 5%,#1a73e7 100%);	
-	border-radius:20px;
+	border-radius:10px;
 	border:1px solid #337fed;
     font-family: 'Cinzel Decorative', cursive !important;
 	cursor:pointer;
@@ -267,6 +267,10 @@ p {
 .myButton3:active {
 	position:relative;
 	top:1px;
+}
+.grit{
+    display: grid;
+    max-width: 100px !important;
 }
       
 

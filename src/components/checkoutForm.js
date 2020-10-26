@@ -29,7 +29,14 @@ export default function CheckoutForm() {
             </div>
             <button type="button" class="myButton4" onClick={() => saveOrder()}><span class="blinking2">Check Out</span></button>
             </div>
-            <img className="img-fluid border" src="/walkingb.gif" alt="flag"/>  
+            <div className="grid">
+            <img className="img-fluid border" src="/carter2.jpg" alt="carter"/> 
+            <img className="img-fluid border" src="/clinton2.jpg" alt="clinton"/> 
+            <img className="img-fluid border" src="/kennedy2.jpg" alt="kennedy"/> 
+            <img className="img-fluid border" src="/lbj2.jpg" alt="lbj"/> 
+            <img className="img-fluid border" src="/nixon.jpg" alt="nixon"/> 
+            <img className="img-fluid border" src="/roosevelt.jpg" alt="roosevelt"/>  
+            </div>
             <p>
             Thank your for shopping with us!
             </p>
