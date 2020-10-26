@@ -35,13 +35,13 @@ export default function Header() {
             
                 <ul class="nav justify-content-center myButton3">
                 <li class="nav-item">
-                    <a class="nav-link active"><Link to="/">Home     </Link></a>
+                    <Link class="nav-link active" to="/">Home     </Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><Link to="about">About              </Link></a>
+                   <Link class="nav-link active" to="about">About              </Link>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link"><Link to="checkout">Check Out</Link></a>
+                   <Link class="nav-link active" to="checkout">Check Out</Link>
                 </li> 
                 </ul>
                 <div className="list7">  

@@ -3,6 +3,7 @@ $color-primary:#042ea0;
 $color-secondary: rgb(248, 248, 248);
 $color-three: #b92d23;
 $color-four: #cc2f2f;
+// $color-flag:linear-gradient(to bottom, $color-three 5%, $color-three 25%, #faf8f8d2 50%,#224cc0 75%, #1a42af 85%, $color-primary 100%);
 
 
 .bg {
@@ -17,8 +18,7 @@ $color-four: #cc2f2f;
 h1 {
     font-family: 'Cinzel Decorative', cursive;
     color: $color-secondary;
-    background:linear-gradient(to bottom, #1439dd 5%,#0264e4 100%); 
-    // background:linear-gradient(to top, $color-four 5%, $color-three 100%);
+    background:linear-gradient(to bottom, #1439dd 5%,#0264e4 100%);   
     text-align: center; 
     padding-top: .4em;
     border-top: double;    
@@ -81,8 +81,6 @@ a {
 }
 .form-group {
     background:linear-gradient(to bottom, #e43f29 5%,  #d34e3c 100%);
-    // background:linear-gradient(to bottom, #506ae2 5%,#3583e9 100%);	
-    // background:linear-gradient(to top, $color-four 5%, $color-three 100%);
     box-shadow: rgba(51, 48, 42, 0.877) 5px 5px 10px;
     border-radius: 20px; 
     margin-left: auto;
@@ -102,7 +100,7 @@ button, .btn-primary {
 }
 @keyframes blinkingText{
     0%{     color: rgb(252, 248, 248);    }
-    49%{    color: rgb(247, 207, 207); }
+    49%{    color: rgb(207, 241, 247); }
     60%{    color: rgb(50, 99, 233);  }
     99%{    color: rgb(11, 47, 165);   }
     100%{   color: rgb(252, 246, 246);    }
@@ -125,30 +123,30 @@ button, .btn-primary {
 }
 .myButton4 {
 	box-shadow:inset 0px 1px 0px 0px #f29c93;
-    // background:linear-gradient(to top, $color-four 5%, $color-three 100%);
-    background:linear-gradient(to bottom, $color-three 5%, $color-three 25%, #faf8f8d2 50%,#224cc0 75%, #1a42af 85%, $color-primary 100%);
+    background:linear-gradient(to bottom, #144add 5%,#0264e4 100%); 
+    // background:linear-gradient(to bottom, #faf8f8d2 10%,#224cc0 11%, #1a42af 85%, $color-primary 100%);
 	background-color:$color-three;
 	border-radius:6px;
-	border:1px solid #d83526;
+	border:1px solid #0c0c0c;
 	display:inline-block;
 	cursor:pointer;
-	color:#f31313;
+	color:#13bff3;
 	font-family:Arial;
 	font-size:23px;
 	font-weight:bold;
 	padding:6px 24px;
 	text-decoration:none;
-	text-shadow:0px 1px 0px #b23e35;
+	text-shadow:0px 1px 0px #067799;
 }
 .blinking2{
     animation:blinkingText2 1.2s infinite;
 }
 @keyframes blinkingText2{
     0%{     color: rgb(250, 245, 245);    }
-    49%{    color: rgb(180, 0, 0); }
+    49%{    color: rgb(241, 238, 238); }
     60%{    color: rgb(50, 99, 233);  }
     99%{    color: rgb(11, 47, 165);   }
-    100%{   color: rgba(243, 79, 208, 0.794);    }
+    100%{   color: rgba(245, 245, 245, 0.815);    }
 }
 .myButton:hover {
 	background:linear-gradient(to bottom, #ce0100 5%, #fe1a00 100%);
@@ -160,8 +158,7 @@ button, .btn-primary {
 }
 .myButton2 {
     box-shadow:inset 0px 1px 0px 0px #97c4fe;
-    box-shadow: rgba(51, 48, 42, 0.877) 2px 3px 10px;
-    // background:linear-gradient(to bottom, #3655e2 5%, $color-primary 100%);
+    box-shadow: rgba(51, 48, 42, 0.877) 2px 3px 10px; 
     background:linear-gradient(to top, #dd4747 5%, $color-three 100%);
 	background-color: $color-primary;
 	border-radius:6px;
@@ -252,7 +249,6 @@ p {
     font-family: 'Cinzel Decorative', cursive !important;
 	cursor:pointer;
 	color:#ffffff;
-	// font-family:Arial;
 	font-size:23px;
 	font-weight:bold;
 	padding:6px 24px;
