@@ -15,7 +15,7 @@ export default function Home({data}) {
     </Helmet>      
     <br/> 
     <div className="border"> 
-    <img className="img-fluid" src="buttons.jpg" alt="buttons"/>  
+    <img className="img-fluid" src="/buttons.jpg" alt="buttons"/>  
     </div>    
     <br/>   
         <div className="row">
